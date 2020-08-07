@@ -2,11 +2,7 @@
 
 This code can play LubmerJack game for you
 
-There are two versions:
-
 v1-> using non-queue based method
-
-v2-> using queue based method
 
 
 
