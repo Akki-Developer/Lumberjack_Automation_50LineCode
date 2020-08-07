@@ -1,2 +1,25 @@
-# Lumberjack_Automation_50LineCode
-Bot that can play the Telegram bot game Lumberjack Story I hacked this bot together when this lumberjack game was popular in our guilds Telegram chat. It can get scores of ~150, which is OK but humans can still beat it easily, if they practice the game a bit. Maybe if I had more time I could try to make it smarter.  Implementation This bot is very basic. As there's no output other than the image from the game, the bot just takes screenshots of the game and scans specific pixel locations for trees.  This puts a hard limit to the performance of the bot, since the animation has to end before we can spot a tree t
+# LubmerJack-automation
+
+This code can play LubmerJack game for you
+
+There are two versions:
+
+v1-> using non-queue based method
+
+v2-> using queue based method
+
+
+
+Click on below image to watch the recorded video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/A9mZVdYDYr8/0.jpg)](https://www.youtube.com/watch?v=A9mZVdYDYr8&feature=youtu.be)
+
+
+# Dependency
+You need to install autopy to conrol mouse and keyboard and check RGB color of the pixels on your screen
+```sh
+$ pip install -U autopy
+```
+
+# Setup
+before running the code, you need to set your browser location properly, because this code is checking the color of specific location in the game scene
